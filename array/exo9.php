@@ -6,4 +6,6 @@
         62 => "Pas-de-Calais",
         80 => "Somme"
     ];
-    $departements[51] = "Marne";
+    foreach($departements as $departement) {
+        echo $departement;
+    }
